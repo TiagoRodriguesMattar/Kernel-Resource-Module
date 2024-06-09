@@ -8,3 +8,5 @@ Use the command make to compile the code.
 "cat /proc/krm_stats" to see the stats (or "watch -n 1 cat /proc/krm_stats").
 
 "sudo rmmod krm" to remove our module.
+
+*** "krm.c" and "Makefile" needs to be in the same directory. ***
