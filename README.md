@@ -3,8 +3,8 @@ Linux Kernel Module that shows some resource statistics about the system for the
 
 Use the command make to compile the code. 
 
-sudo insmod krm.ko to add our module. 
+"sudo insmod krm.ko" to add our module. 
 
-cat /proc/krm_stats to see the stats (or watch -n 1 cat /proc/krm_stats).
+"cat /proc/krm_stats" to see the stats (or "watch -n 1 cat /proc/krm_stats").
 
-sudo rmmod krm to remove our module.
+"sudo rmmod krm" to remove our module.
